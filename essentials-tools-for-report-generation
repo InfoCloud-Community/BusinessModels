@@ -445,5 +445,6 @@ Python offers various libraries to create professional reports and factsheets. I
 
 If you need your report as Excel file (or if you hate CSS), Pandas + XlsxWriter/OpenPyXL or xlwings might be the right choice - you can still export your Excel document as PDF file. xlwings is the better choice if you want to split the design and code work. XlsxWriter/OpenPyxl is the better choice if it needs to be scalable and run on a server.
 
-If you need to generate PDF files at high speed, check out ReportLab. It has a steep learning curve and requires to write quite some code but once the code has been written, it works at high speed.
+If you need to generate PDF files at high speed, check out ReportLab. 
+Report lab has a steep learning curve and requires to write quite some code but once the code has been written, it works at high speed.
 
