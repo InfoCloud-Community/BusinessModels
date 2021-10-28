@@ -8,4 +8,5 @@ System Testing is done to check whether the software or product meets the specif
 Acceptance Testing:
 Acceptance Testing is done after the system testing. It is used to check whether the software meets the customer requirements or not. Acceptance testing is used by testers, stakeholders as well as clients. It includes only Functional Testing and it contain two testing Alpha Testing and Beta Testing.
 The main aim of this testing is to determine the working process of the system by satisfying the required specifications and it is acceptable for delivery. It is also known as End-User Testing. It also works under the Black Box Testing Method.
-Encapsulation is one of the fundamentals of OOP (object-oriented programming). It refers to the bundling of data with the methods that operate on that data. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties' direct access to them.
+Decision Table Based Testing:
+A decision table is also known as to Cause-Effect table. This software testing technique is used for functions which respond to a combination of inputs or events. For example, a submit button should be enabled if the user has entered all required fields.
