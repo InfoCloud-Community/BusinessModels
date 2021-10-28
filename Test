@@ -7,10 +7,3 @@ System Testing:
 System Testing is done to check whether the software or product meets the specified requirements or not. It is done by both testers and developers. It contains the Testings: System testing, Integration Testing. It is done through more positive and negative test cases.
 Acceptance Testing:
 Acceptance Testing is done after the system testing. It is used to check whether the software meets the customer requirements or not. Acceptance testing is used by testers, stakeholders as well as clients. It includes only Functional Testing and it contain two testing Alpha Testing and Beta Testing.
-The main aim of this testing is to determine the working process of the system by satisfying the required specifications and it is acceptable for delivery. It is also known as End-User Testing. It also works under the Black Box Testing Method.
-Decision Table Based Testing:
-A decision table is also known as to Cause-Effect table. This software testing technique is used for functions which respond to a combination of inputs or events. For example, a submit button should be enabled if the user has entered all required fields.
-Error Guessing
-Error Guessing is a software testing technique based on guessing the error which can prevail in the code. The technique is heavily based on the experience where the test analysts use their experience to guess the problematic part of the testing application. Hence, the test analysts must be skilled and experienced for better error guessing.
-
-The technique counts a list of possible errors or error-prone situations. Then tester writes a test case to expose those errors. To design test cases based on this software testing technique, the analyst can use the past experiences to identify the conditions.
