@@ -7,3 +7,39 @@ System Testing:
 System Testing is done to check whether the software or product meets the specified requirements or not. It is done by both testers and developers. It contains the Testings: System testing, Integration Testing. It is done through more positive and negative test cases.
 Acceptance Testing:
 Acceptance Testing is done after the system testing. It is used to check whether the software meets the customer requirements or not. Acceptance testing is used by testers, stakeholders as well as clients. It includes only Functional Testing and it contain two testing Alpha Testing and Beta Testing.
+
+
+
+Mohit's- Edition:
+Black-box and white-box testing – pros and consAuthor: Emilia Nowacka
+1
+Category: Software Development
+
+11.03.2021
+As you might remember, if you read a previous blog post of mine about tips for software testers, I mentioned two elementary terms used in software testing – white box and black box testing. In this article, I will explain what they are and what are their positive and negative aspects.
+
+What do white box and black box testing mean?
+Black box testing is when you have no idea how the software you are testing was programmed. You might not even know exactly how the app should work but it is your duty to squeeze out every single functionality or bug you can come up with.
+
+This kind of testing is often done by testers who have little to no programming knowledge. It’s actually a good thing because they have the perspective of a usual end user. Black box testing is considered high-level testing, which means that its main goal is to test functionalities from the behavioral point of view.
+
+White box testing, also known as clear box testing, happens when you have insight into the code and/or general knowledge about the architecture of the software in question. It’s counted among low-level testing and focuses mainly on integration and unit testing.
+
+White box testing requires programming knowledge or at least a deep understanding of the code that implements a specific feature. In the first case – a tester builds the code for e.g. unit tests. In the second – a tester uses tools dedicated to testing backend functionalities, e.g. Postman. Of course, clear box testing isn’t only used in the testing of backend functionalities. You can build automates that will test frontend functionalities but generally clear box testing focuses on testing the code itself.
+
+What are the pros and cons of black-box testing?
+As I mentioned earlier, in black-box testing you have no idea how the functionalities have been implemented. You can get very creative with the ways you use certain parts of the software you are testing and go with your intuition. This way you can find bugs developers haven’t thought of. 
+
+Manual tests are one of the ways to implement black-box testing. You can either click through the app yourself or use an automation package. I like to use Selenium. What benefits does automated testing bring? Let’s say you want to register 100 customers. Why risk hand cramps and watery eyes from filling in the same registration form for two hours? I’ve done it too many times in the past. Now Selenium does it for me once I write a code it can execute many times in a row. Minus the watery eyes and hand cramps of course. 
+
+Black-box testing adds the user perspective but beware of misinterpretations
+The most obvious advantage I see in black-box testing is detecting bugs and glitches in the software by using and abusing it as some end users would. What’s the most appropriate time to run black-box tests? One can do it during development but even so, one can NEVER forget about it right before putting the software to production.
+
+The biggest con to black-box testing (which is not really a con if you also test software with white-box techniques) is the fact that you can sometimes lose a lot of time testing something that was not intended to exist in the first place. Imagine a situation when a certain functionality had a different purpose than you interpreted. Until you ask a developer or product owner, you might not even realize that your interpretation was in fact wrong. 
+
+Being in the dark (I can’t get enough of these cheesy puns) can be good and bad at the same time. That’s why you have to ask questions, often ahead of time to make sure that you understand what you’re testing. 
+
+The good, the bad, and the ugly about clear-box (white-box) testing
+In clear-box testing you have it all laid out for you – you know the language the code has been written in, you know what it has to do, what are the conditions of the cases implemented in the software, etc. This gives you a nice base to work with. 
+
+If you have a little bit of experience with similar software – you can easily make at least one of two scenarios that should always be checked when testing the code in question. 
